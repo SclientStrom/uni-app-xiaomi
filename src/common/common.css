@@ -1,0 +1,26 @@
+page {
+  height: 100%;
+  font-size: 28rpx;
+  line-height: 1.8;
+  background: #fff;
+}
+
+image {
+  width: 100%;
+}
+
+.main-bg-color {
+  background: #fd6801;
+}
+
+.main-bg-hover-color {
+  background-color: rgba(253, 104, 1, 0.85);
+}
+
+.main-text-color {
+  color: #fd6801;
+}
+
+.main-border-color {
+  border-color: #f1f1f1;
+}

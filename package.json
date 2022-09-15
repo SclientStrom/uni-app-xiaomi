@@ -1,0 +1,49 @@
+{
+  "name": "uni-preset-vue",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "uni -p mp-weixin",
+    "build": "uni build -p mp-weixin",
+    "prepare": "types-sync && husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,js,vue,json}": "eslint"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-alpha-3060120220907002",
+    "@dcloudio/uni-app-plus": "3.0.0-alpha-3060120220907002",
+    "@dcloudio/uni-components": "3.0.0-alpha-3060120220907002",
+    "@dcloudio/uni-h5": "3.0.0-alpha-3060120220907002",
+    "@dcloudio/uni-helper-json": "^1.0.13",
+    "@dcloudio/uni-mp-alipay": "3.0.0-alpha-3060120220907002",
+    "@dcloudio/uni-mp-baidu": "3.0.0-alpha-3060120220907002",
+    "@dcloudio/uni-mp-kuaishou": "3.0.0-alpha-3060120220907002",
+    "@dcloudio/uni-mp-lark": "3.0.0-alpha-3060120220907002",
+    "@dcloudio/uni-mp-qq": "3.0.0-alpha-3060120220907002",
+    "@dcloudio/uni-mp-toutiao": "3.0.0-alpha-3060120220907002",
+    "@dcloudio/uni-mp-weixin": "3.0.0-alpha-3060120220907002",
+    "@dcloudio/uni-quickapp-webview": "3.0.0-alpha-3060120220907002",
+    "sass": "^1.54.9",
+    "vue": "^3.2.37",
+    "vue-i18n": "^9.1.9",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.0.13",
+    "@dcloudio/uni-automator": "3.0.0-alpha-3060120220907002",
+    "@dcloudio/uni-cli-shared": "3.0.0-alpha-3060120220907002",
+    "@dcloudio/uni-stacktracey": "3.0.0-alpha-3060120220907002",
+    "@dcloudio/vite-plugin-uni": "3.0.0-alpha-3060120220907002",
+    "@types/html5plus": "^1.0.2",
+    "@types/uni-app": "^1.4.4",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.14",
+    "vite-plugin-windicss": "^1.8.7",
+    "windicss": "^3.5.6"
+  }
+}
