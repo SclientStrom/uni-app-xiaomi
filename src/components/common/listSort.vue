@@ -1,5 +1,5 @@
 <template>
-  <view class="flex flex-row flex-wrap h-80rpx w-full items-center justify-center">
+  <view class="flex flex-row flex-wrap h-100rpx w-full items-center justify-center">
     <view
       class="flex-1 flex flex-row items-center justify-center"
       v-for="(item, index) in screen.sortTypes"

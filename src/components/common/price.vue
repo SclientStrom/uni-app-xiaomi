@@ -1,6 +1,6 @@
 <template>
-  <view class="flex main-text-color text-xl leading-none pt-1rpx">
-    <text class="text-xs self-start mr-2rpx">¥</text>
+  <view class="flex main-text-color text-35rpx leading-none pt-1rpx">
+    <text class="text-20rpx self-start mr-2rpx">¥</text>
     {{ props.price }}
   </view>
 </template>
