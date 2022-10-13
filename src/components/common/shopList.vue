@@ -2,10 +2,10 @@
   <view
     v-for="(item, index) in shopList"
     :key="index"
-    class="flex flex-row pt-25rpx border-solid border-transparent border-5rpx border-t-gray-100"
+    class="flex flex-row pt-25rpx pb-10rpx border-solid border-transparent border-5rpx border-t-gray-100"
   >
     <image
-      class="flex-1 px-20rpx pb-20rpx"
+      class="flex-1 px-20rpx pb-10rpx"
       src="../../static/images/demo/demo6.jpg"
       mode="widthFix"
     ></image>

@@ -6,7 +6,9 @@
       :key="index"
       @tap="screenChange(index)"
     >
-      <text :class="item.status === 1 ? 'main-text-color' : 'text-gray-600'">{{ item.name }}</text>
+      <text :class="screen.currentIndex == index ? 'main-text-color' : 'text-gray-600'">{{
+        item.name
+      }}</text>
       <view class="leading-15rpx pl-5rpx" v-if="isNumber(item.status)">
         <view
           class="iconfont icon-xiangshang"

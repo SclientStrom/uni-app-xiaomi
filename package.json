@@ -40,6 +40,7 @@
     "@dcloudio/uni-stacktracey": "3.0.0-alpha-3060120220907002",
     "@dcloudio/vite-plugin-uni": "3.0.0-alpha-3060120220907002",
     "@types/html5plus": "^1.0.2",
+    "@types/sass": "^1.43.1",
     "@types/uni-app": "^1.4.4",
     "typescript": "^4.7.4",
     "vite": "^2.9.14",

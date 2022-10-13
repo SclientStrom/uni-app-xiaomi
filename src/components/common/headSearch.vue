@@ -18,9 +18,11 @@
         @input="getValue"
       />
     </view>
-    <view class="text-gray-400 pl-15rpx text-28rpx" style="flex: 2" @tap="search && searchList()"
-      ><text>搜索</text></view
-    >
+    <slot>
+      <view class="text-gray-400 pl-15rpx text-28rpx" style="flex: 2" @tap="search && searchList()">
+        <text>搜索</text>
+      </view>
+    </slot>
   </view>
 </template>
 <script lang="ts" setup>

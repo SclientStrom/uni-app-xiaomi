@@ -169,17 +169,8 @@ const jumpQueryPage = () => {
     url: "../search/index",
   });
 };
-onLaunch(() => {
-  console.log("index Launch");
-});
-onShow(() => {
-  console.log("index Show");
-});
-onHide(() => {
-  console.log("index Hide");
-});
+
 onLoad(() => {
   windShowHeight.value = getWindowHeight();
-  console.log(windShowHeight.value);
 });
 </script>

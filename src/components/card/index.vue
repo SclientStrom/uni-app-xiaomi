@@ -1,5 +1,5 @@
 <template>
-  <view class="border-b main-border-color">
+  <view class="border-solid border-0 border-b-gray-100 border-b-6rpx">
     <view v-show="showTitle" class="p-3">
       <slot name="title">
         <text v-if="props.cardTitle"> {{ props.cardTitle }}</text>
